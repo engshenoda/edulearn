@@ -33,23 +33,9 @@ class _HomePageState extends State<SignUp> {
           const SizedBox(
             height: 70,
           ),
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 120),
-            child: Row(
-              children: [
-                Icon(
-                  Icons.browser_updated,
-                  color: Colors.blue,
-                ),
-                const Text(
-                  '|EduLearn',
-                  style: TextStyle(
-                      color: Colors.green,
-                      fontSize: 30,
-                      fontWeight: FontWeight.w100),
-                ),
-              ],
-            ),
+          Image.asset(
+            'assets/logo-no-background 2.png',
+            width: 200,
           ),
           const SizedBox(
             height: 20,

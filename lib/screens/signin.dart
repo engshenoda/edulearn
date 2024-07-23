@@ -18,8 +18,6 @@ class _HomePageState extends State<Signin> {
     });
   }
 
-  
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,23 +26,9 @@ class _HomePageState extends State<Signin> {
           const SizedBox(
             height: 70,
           ),
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 120),
-            child: Row(
-              children: [
-                Icon(
-                  Icons.browser_updated,
-                  color: Colors.blue,
-                ),
-                const Text(
-                  '|EduLearn',
-                  style: TextStyle(
-                      color: Colors.green,
-                      fontSize: 30,
-                      fontWeight: FontWeight.w100),
-                ),
-              ],
-            ),
+          Image.asset(
+            'assets/logo-no-background 2.png',
+            width: 200,
           ),
           const SizedBox(
             height: 20,
@@ -137,7 +121,7 @@ class _HomePageState extends State<Signin> {
                   border: Border.all(color: Colors.grey.shade700),
                 ),
                 child: Image.asset(
-                  'assets/facebook.png',
+                  'assets/devicon_google.png',
                   width: 50,
                 ),
               ),
@@ -151,7 +135,7 @@ class _HomePageState extends State<Signin> {
                   border: Border.all(color: Colors.grey.shade700),
                 ),
                 child: Image.asset(
-                  'assets/google.png',
+                  'assets/logos_facebook.png',
                   width: 50,
                 ),
               ),
@@ -165,7 +149,7 @@ class _HomePageState extends State<Signin> {
                   border: Border.all(color: Colors.grey.shade700),
                 ),
                 child: Image.asset(
-                  'assets/appel.png',
+                  'assets/pajamas_twitter.png',
                   width: 50,
                 ),
               ),
@@ -179,7 +163,7 @@ class _HomePageState extends State<Signin> {
                   border: Border.all(color: Colors.grey.shade700),
                 ),
                 child: Image.asset(
-                  'assets/appel.png',
+                  'assets/logos_linkedin-icon.png',
                   width: 50,
                 ),
               ),
